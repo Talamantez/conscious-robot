@@ -1,0 +1,29 @@
+file-drop {
+  border-radius: 5dvh;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background: #f4f8ff;
+}
+
+.file-picker__input {
+  opacity: 0;
+  position: absolute;
+}
+
+.file-picker__icon {
+  fill: #0a7df8;
+  width: 2.3rem;
+  height: 2.3rem;
+  opacity: 1;
+}
+
+.file-picker__label {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: end;
+  color: #0a7df8;
+}
