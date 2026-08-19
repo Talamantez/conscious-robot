@@ -1,14 +1,12 @@
-import Footer from "../components/Footer.tsx";
 import Header from "../components/Header.tsx";
-import LoaderIsland from "../islands/LoaderIsland.tsx";
+import HomeContent from "../islands/HomeContent.tsx";
 
 export default function Home() {
 
   return (
     <div>
       <Header active="home" />
-      <LoaderIsland />
-      <Footer />
+      <HomeContent />
     </div>
   );
 }
